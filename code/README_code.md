@@ -11,4 +11,8 @@ The folder ReWoRC contains the python notebooks and .py files with which the ope
 - rework-test-by-topics.ipynb tests the training of the models when ReWoRC dataset is divided by topics.
 - rework-test-with-problem-statements.ipynb tests again the training of the models when ReWoRC dataset is stratified in 10 folds with the difference that the statement of the problem to be solved is added to the requirements.
 
+All experiments have been repeated 10 times (except the one where the dataset is divided by themes, which is repeated 6 times), with different datasets for training, validation and testing.
+
+Given the high consumption of cpu and gpu resources required to run the tests, we have used the virtual environment dedicated to data science and machine learning *Kaggle*. The code is therefore adapted to run on *Kaggle*.
+
 The file [...] calculates the means, standard deviations and best learning rates for the results obtained.

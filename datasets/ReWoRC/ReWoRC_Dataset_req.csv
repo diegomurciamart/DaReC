@@ -139,16 +139,7 @@
 138;INT-138;SDT displays shall also provide the user with a view of text associated with the leaves of the displayed sub-tree. This text shall be copy-and-pasteable in the host operating system. Thus, text displayed in a HATS-GUI window can be pasted into other applications such as text editors that may be running concurrently with the HATS-GUI.;2001 - hats.pdf;Funcional
 139;INT-139;SDT displays shall provide the user with the option to refresh the display. When a display is refreshed, the current display is erased, the SDT file is read, and a new SDT display is generated. The new SDT display shall approximate the previous SDT display by expanding the SDT to the same number of nodes, if this is possible.;2001 - hats.pdf;Funcional
 140;INT-140;If a displayed graph or a text display is too large to fit inside its window, the windows shall have scroll bars attached to them. Dragging scrollbar buttons shall scroll the display. Pressing the arrow keys of the keyboard shall also scroll the display.;2001 - hats.pdf;Funcional
-141;INT-141;"For displayed graph windows, the keyboard cursor location shall move according the following rules: • A left arrow key moves the cursor to the next unhidden node to the left. The node to the left does
-not need to be a sibling of the current node, but it does need to be at the same level as the current
-node. If there are no nodes to the left, the cursor does not move.
-• A right arrow key moves the cursor to the next unhidden node to the right. The node to the right
-does not need to be a sibling of the current node, but it does need to be at the same level as the
-current node. If there are no nodes to the right, the cursor does not move.
-• An up arrow key moves the cursor to the closest ancestor that is not hidden. If there is no such
-node, the cursor does not move.
-• An down arrow key moves the cursor to the leftmost, nearest descendant that is not hidden. If
-there is no such node, the cursor does not move.";2001 - hats.pdf;Funcional
+141;INT-141;"For displayed graph windows, the keyboard cursor location shall move according the following rules: • A left arrow key moves the cursor to the next unhidden node to the left. The node to the left does not need to be a sibling of the current node, but it does need to be at the same level as the current node. If there are no nodes to the left, the cursor does not move. • A right arrow key moves the cursor to the next unhidden node to the right. The node to the right does not need to be a sibling of the current node, but it does need to be at the same level as the current node. If there are no nodes to the right, the cursor does not move. • An up arrow key moves the cursor to the closest ancestor that is not hidden. If there is no such node, the cursor does not move. • An down arrow key moves the cursor to the leftmost, nearest descendant that is not hidden. If there is no such node, the cursor does not move.";2001 - hats.pdf;Funcional
 142;INT-142;The pointing-device cursor shall track the motion of the pointing device. The keyboard cursor shall move to the text element or graph node closest to the pointing-device cursor when the pointing device is clicked.;2001 - hats.pdf;Funcional
 143;INT-143;If keyboard cursor movement causes the keyboard cursor to move to text or graph nodes not currently displayed, the display will scroll the minimal amount to display the current cursor location.;2001 - hats.pdf;Funcional
 144;INT-144;If the displayed graph of the entire SDT is too large for the window, a separate, small window with a compressed view of the SDT shall be displayed. The compressed view is called the navigation window display. In this navigation window, a representation of the entire SDT will be drawn. A small box will be displayed showing the part of the SDT currently displayed in the main tree display window.;2001 - hats.pdf;Funcional
@@ -347,8 +338,7 @@ there is no such node, the cursor does not move.";2001 - hats.pdf;Funcional
 164;JUE-164;After the user has proceeded through a set number of questions, they will be directed to the ending scene component.;2001 - space fractions.pdf;Funcional
 165;JUE-165;There will be a screen offering a conclusion to the game's plot based on performance at certain critical points in the game sequence, where the user's score is displayed and the user is given a chance to exit or return to the main menu.;2001 - space fractions.pdf;Funcional
 166;JUE-166;There will be a web-accessible tool to allow questions in the game sequence to be updated by a game administrator;2001 - space fractions.pdf;Funcional
-167;JUE-167;"The umbrella component will provide links to mature S2S projects dealing with
-mathematics for sixth graders, organized by topic (for example, all fractionsrelated projects will be grouped together).";2001 - space fractions.pdf;Funcional
+167;JUE-167;"The umbrella component will provide links to mature S2S projects dealing with mathematics for sixth graders, organized by topic (for example, all fractionsrelated projects will be grouped together).";2001 - space fractions.pdf;Funcional
 168;JUE-168;Only one person can use a single instance of the product;2001 - space fractions.pdf;No funcional
 169;JUE-169;The product will be as secure as the web browser that will run the product.;2001 - space fractions.pdf;No funcional
 170;JUE-170;The product will be available over the Internet via the S2S website;2001 - space fractions.pdf;No funcional
@@ -802,25 +792,20 @@ mathematics for sixth graders, organized by topic (for example, all fractionsrel
 19;GES-19;The website should present an „Add to Cart‟ button on search results and item detail screens and standard „View Shopping Cart‟ and checkout functionality as well as the option to „forward item to a friend‟.;2009 - inventory 2.0.pdf;Funcional
 20;GES-20;Only items flagged as available for online purchase on the inventory system can be purchased online. Those items are held in a separate area in the warehouse designated for online items and can only be purchased online.;2009 - inventory 2.0.pdf;Funcional
 21;GES-21;For items that are not available for online purchase the website should display a comment that reads 'You can purchase this item over the phone or at Construction Junction'. When an item is purchased over the phone it is physically moved to the SOLD items area in the warehouse, but should remain on the website for an additional 15 days with “Sold” appearing across the item name and image.;2009 - inventory 2.0.pdf;Funcional
-22;GES-22;"The system should Implement a membership program that would make it
-easier to track customer/donor activity. Based on a membership card, linked to the donor/customer contact in CRM and QuickBooks POS, where swiping or scanning the card would quickly bring up the customers information, making the donation or purchasing process faster (eliminating the need for Construction Junction staff to enter the name and demographic information for repeat donors/customers).";2009 - inventory 2.0.pdf;Funcional
+22;GES-22;"The system should Implement a membership program that would make it easier to track customer/donor activity. Based on a membership card, linked to the donor/customer contact in CRM and QuickBooks POS, where swiping or scanning the card would quickly bring up the customers information, making the donation or purchasing process faster (eliminating the need for Construction Junction staff to enter the name and demographic information for repeat donors/customers).";2009 - inventory 2.0.pdf;Funcional
 23;GES-23;The system should allow Construction Junction to reward customers for frequent donating by giving them in-store credit that can be used when purchasing items.;2009 - inventory 2.0.pdf;Funcional
 24;GES-24;The system should also provide reports that show all items a particular donor brought in and how much those items were sold for.;2009 - inventory 2.0.pdf;Funcional
-25;GES-25;"The system should provide users with the ability to notify Construction
-Junction of items that they would like to purchase and be notified when/if those items become available. Customer wish lists would only be viewable by Construction Junction staff and will not be publicly available.";2009 - inventory 2.0.pdf;Funcional
+25;GES-25;"The system should provide users with the ability to notify Construction Junction of items that they would like to purchase and be notified when/if those items become available. Customer wish lists would only be viewable by Construction Junction staff and will not be publicly available.";2009 - inventory 2.0.pdf;Funcional
 26;GES-26;Inventory Aging/Automatic Price Discount – Automatically decrease price of inventory items by a set amount that have remained in the inventory for a set period of time. For example, reducing the price by 10% each month that the item remains in inventory;2009 - inventory 2.0.pdf;Funcional
-27;GES-27;"The system should be able to track those items purchased by customers but left
-on-site for a maximum seven day period until the customer is able to return to pick up the item(s)";2009 - inventory 2.0.pdf;Funcional
+27;GES-27;"The system should be able to track those items purchased by customers but left on-site for a maximum seven day period until the customer is able to return to pick up the item(s)";2009 - inventory 2.0.pdf;Funcional
 28;GES-28;The system should send automatic emails to the customer as required pick-up dates approach and the status of items is updated as they are picked up. ;2009 - inventory 2.0.pdf;Funcional
 29;GES-29;The system should be able to set thresholds for specific items or categories that will indicate that there are too many or too little of these items in the inventory and allow the prices to be adjusted for the over or under stock condition.;2009 - inventory 2.0.pdf;Funcional
 30;GES-30;The system must allow a threshold quantity to be set at any level (department or category) in the inventory. Once that threshold is reached for a department or category, the corresponding matrix cell should change to a different color that indicates the overstock condition. Also, the current quantity on hand and the threshold value for the item‟s department or category should be displayed on the item entry and update screens. This information should also be displayed on a different color or layout when the threshold is reached.;2009 - inventory 2.0.pdf;Funcional
 31;GES-31;The system should still allow items to be received for a department or category that is overstocked, but Construction Junction staff may decide to turn down those items at the receiving dock. The system should also provide a report that shows currently overstock departments and categories.;2009 - inventory 2.0.pdf;Funcional
 32;GES-32;The system should be able to scan items on the store floor and update the inventory item from a small handheld unit or tablet PC. Additionally, handheld/tablet units that can be used by Pickup and Decon crews on worksites.;2009 - inventory 2.0.pdf;Funcional
 33;GES-33;The system should be able to add a history or back story for items with particularly unique or significant origins and share this store with customers on the website and in the store.;2009 - inventory 2.0.pdf;Funcional
-34;GES-34;"The system should be able to extend the Pickup/Decon Logistics system to
-calculate donation size/truck capacity";2009 - inventory 2.0.pdf;Funcional
-35;GES-35;"The system should be able to Allow Construction Junction staff to enter
-information on Donors related to details of the donors location, ease of working with the donor, and any additional information that may be helpful for future donations.";2009 - inventory 2.0.pdf;Funcional
+34;GES-34;"The system should be able to extend the Pickup/Decon Logistics system to calculate donation size/truck capacity";2009 - inventory 2.0.pdf;Funcional
+35;GES-35;"The system should be able to Allow Construction Junction staff to enter information on Donors related to details of the donors location, ease of working with the donor, and any additional information that may be helpful for future donations.";2009 - inventory 2.0.pdf;Funcional
 36;GES-36;The application is expected to operate via touch screen user interfaces, and take advantage of that technology to be as fast, efficient, intuitive, and flexible as possible while also minimizing the potential for errors and duplications. It should minimize the use of keyboard and mouse when processing acquisitions, and should allow acquisitions to be completed with few clicks and page switches.;2009 - inventory 2.0.pdf;Funcional
 37;GES-37;The system must be available during normal Construction Junction operating hours;2009 - inventory 2.0.pdf;Funcional
 38;GES-38;Access to the application by the Construction Junction staff must require user login. Access to application screens and functions is granted or denied based on the profile and role of the currently logged in user, as detailed in the preceding use-case requirements. The system should record changes to application entities in the form of „created user/time‟, „modified user/time‟ fields. The system should also record information about various sensitive inventory management operations such as deleting items and changing the price of items.;2009 - inventory 2.0.pdf;No funcional
@@ -879,17 +864,7 @@ information on Donors related to details of the donors location, ease of working
 91;GES-91;If the tear off voucher slips would be sticker then it will not be lost on attaching to the claim forms by the VSP.;2005 - microcare.pdf;Funcional
 92;GES-92;Each voucher slip should contain the bar code of the Voucher with two identifications one for the client and the other for the partner.;2005 - microcare.pdf;Funcional
 93;GES-93;Marketing - Sales: The system will capture the master details of every distributor so that the users can get the details of any distributor and sales details at any time. Each distributor will have unique code and detailed descriptions such as name, address, locations and type of business etc. such valid information will help us track information related to sales and distributions;2005 - microcare.pdf;Funcional
-94;GES-94;"Following fields will be captured at this master: 
-o Distributor Code (3 Digit) Example: DS0001*
-o Name of the distributor*
-o Type of business (e.g. hospital/pharmacy/NGO)*
-o Proprietor Name*
-o Designation
-o Address (Street/Road, Sub District, County, Sub County and Village or
-Town)*
-o Contact No
-o Email Id
-o Status (active/deactivate) ";2005 - microcare.pdf;Funcional
+94;GES-94;"Following fields will be captured at this master: - Distributor Code (3 Digit) Example: DS0001*. - Name of the distributor*. - Type of business (e.g. hospital/pharmacy/NGO)*. - Proprietor Name*. - Designation. - Address (Street/Road, Sub District, County, Sub County and Village or Town)*. - Contact Nº. - Email Id. - Status (active/deactivate) ";2005 - microcare.pdf;Funcional
 95;GES-95;"The system will capture the details of MSIU Salesman; this would help the MSIU management team to understand the performance of each Team or salesman. During every distribution transaction the user should select the name of the sales man listed from Team Master.";2005 - microcare.pdf;Funcional
 96;GES-96;The system will capture the details of voucher sales between MISU sales team and Distributors. During the distribution the system will capture the following details, to make Distribution process easily. With the below details the user can get the details of Distributor-wise and Salesman-wise and Batch No wise sales details as reports. o Name of the distributor* o Name of the Sales Man* o Date of distribution* o No of vouchers sold* o According to the number of vouchers required by the distributor, the system should allocate the relevant vouchers with their numbers and batch numbers based on the stock. o Invoice amount = No of vouchers x Wholesale price o Mode of payment is Cash;2005 - microcare.pdf;Funcional
 97;GES-97;The system will generate an auto-generated number as Distribution Invoice Nº.;2005 - microcare.pdf;Funcional
@@ -1411,8 +1386,7 @@ o Status (active/deactivate) ";2005 - microcare.pdf;Funcional
 613;GES-613;When the THEMAS system is initialized, it shall first turn off all the heating and cooling units. Then , it shall check all the thermostats and determine if any thermostat’s settings require a heating or cooling unit to be turned on back on.;1998 - themas.pdf;Funcional
 614;GES-614;The THEMAS system shall ensure the temperature reported by a given thermostat shall not exceed a maximum deviation value of 3 degrees Fahrenheit.;1998 - themas.pdf;Funcional
 615;GES-615;The THEMAS system shall only respond to temperatures from the thermostats that are within the specified valid range.;1998 - themas.pdf;Funcional
-616;GES-616;"The THEMAS system shall only respond to temperatures that are
-within a reasonable value.";1998 - themas.pdf;Funcional
+616;GES-616;"The THEMAS system shall only respond to temperatures that are within a reasonable value.";1998 - themas.pdf;Funcional
 617;GES-617;The valid temperature range value shall reside in an initialization file. This procedure shall read the initialization file and establish the valid temperature range from the data in it.;1998 - themas.pdf;Funcional
 618;GES-618;The THEMAS system shall determine when a reported temperature or a changed temperature setting exceeds the limits set by the overtemperature values. Temperatures that exceed the overtemperature limits shall be reported as such. Temperatures that do not exceed these limits shall be output for subsequent processing.;1998 - themas.pdf;Funcional
 619;GES-619;The THEMAS system shall compare the reported temperature value to the temperature setting and detect when the temperature value exceeds the specified limits.;1998 - themas.pdf;Funcional
@@ -1504,10 +1478,7 @@ within a reasonable value.";1998 - themas.pdf;Funcional
 705;GES-705;The GUI shall allow a user to delete a previously entered incident.;2001 - ctc network.pdf;Funcional
 706;GES-706;The GUI shall allow a user to delete a previously entered lane closure;2001 - ctc network.pdf;Funcional
 707;GES-707;The GUI shall provide a list of previously entered lane closures.;2001 - ctc network.pdf;Funcional
-708;GES-708;"When the GUI application is initiated, the user shall be
-prompted for the following information:
-· User name
-· Password";2001 - ctc network.pdf;Funcional
+708;GES-708;"When the GUI application is initiated, the user shall be prompted for the following information: · User name · Password";2001 - ctc network.pdf;Funcional
 709;GES-709;The user shall be provided with the capability to select a network identifier for a device command/control request.;2001 - ctc network.pdf;Funcional
 710;GES-710;Once an Center is selected, the user shall be able to select a DMS from a list and provide the following information: · Target DMS · Message to be displayed · Beacons On/Of;2001 - ctc network.pdf;Funcional
 711;GES-711;Once an Center is selected, the user shall be able to select a LCS from a list and provide the following information: · Target LCS · Assignment of lane arrows;2001 - ctc network.pdf;Funcional
@@ -1675,9 +1646,7 @@ prompted for the following information:
 147;OTR-147;All voice call services shall be able to operate between any combination of fixed and mobile equipment users.;2007 - eirene fun 7.pdf;Funcional
 148;OTR-148;The system shall support point-to-point voice calls between any two call parties;2007 - eirene fun 7.pdf;Funcional
 149;OTR-149;The system shall allow a user to make public emergency point-to-point voice calls. Such emergency calls include ‘112’ calls and may not be used for railway emergencies.;2007 - eirene fun 7.pdf;Funcional
-150;OTR-150;"The system shall support broadcast voice calls. Broadcast voice calls provide one-way voice communications from a single user to
-multiple users in a pre-defined local area, all of whom are members of the same call
-group. ";2007 - eirene fun 7.pdf;Funcional
+150;OTR-150;"The system shall support broadcast voice calls. Broadcast voice calls provide one-way voice communications from a single user to multiple users in a pre-defined local area, all of whom are members of the same call group. ";2007 - eirene fun 7.pdf;Funcional
 151;OTR-151;The composition of call groups shall be able to be modified within the network. A single user shall be able to be a member of one or more call groups.;2007 - eirene fun 7.pdf;Funcional
 152;OTR-152;The local area over which broadcast calls shall be implemented shall be able to be modified within the network.;2007 - eirene fun 7.pdf;Funcional
 153;OTR-153;It shall only be possible for the user who initiated the call to talk, other users can only listen.;2007 - eirene fun 7.pdf;Funcional
@@ -1709,8 +1678,7 @@ group. ";2007 - eirene fun 7.pdf;Funcional
 179;OTR-179;It shall be possible for the user to re-join the call which is on hold at any time. (;2007 - eirene fun 7.pdf;Funcional
 180;OTR-180;The network shall provide the ability to inform a user, who is involved in an existing call, of attempts by other users to contact them;2007 - eirene fun 7.pdf;Funcional
 181;OTR-181;Where network services are chargeable, it should be possible for the network to provide information about call rates and on-going call charges.;2007 - eirene fun 7.pdf;Funcional
-182;OTR-182;"It shall be possible, using network management or maintenance facilities, to prevent individual users from: − making calls to: another network (fixed or mobile) (eg can only call on home network); certain types of numbers within or external to the network (eg cannot call teleshopping numbers); certain pre-defined telephone numbers (eg cannot call drivers and on-train users);
-− receiving calls from:  all other networks (fixed or mobile); certain other networks (fixed or mobile); certain types of numbers within or external to the network; certain pre-defined telephone numbers.";2007 - eirene fun 7.pdf;Funcional
+182;OTR-182;"It shall be possible, using network management or maintenance facilities, to prevent individual users from: − making calls to: another network (fixed or mobile) (eg can only call on home network), certain types of numbers within or external to the network (eg cannot call teleshopping numbers), certain pre-defined telephone numbers (eg cannot call drivers and on-train users), − receiving calls from:  all other networks (fixed or mobile); certain other networks (fixed or mobile), certain types of numbers within or external to the network, certain pre-defined telephone numbers.";2007 - eirene fun 7.pdf;Funcional
 183;OTR-183;The EIRENE network shall also provide support for the following railway specific services: − functional addressing including registration/deregistration − location dependent addressing. − shunting mode. − Railway emergency calls.;2007 - eirene fun 7.pdf;Funcional
 184;OTR-184;The operational radio shall call authorised users;2007 - eirene fun 7.pdf;Funcional
 185;OTR-185;The operational radio shall call controller;2007 - eirene fun 7.pdf;Funcional
@@ -1815,10 +1783,7 @@ group. ";2007 - eirene fun 7.pdf;Funcional
 284;OTR-284;All DigitalHome operations shall incorporate exception handling so that the system responds to a user with a clear, descriptive message when an error or an exceptional condition occurs.;2010 - digital home 1.3.pdf;No funcional
 285;OTR-285;Upon installation, a DigitalHome user account shall be established. The DigitalHome web system shall provide for authentication and information encryption through a recognized reliable and effective security technology, such as Transport Layer Security. ;2010 - digital home 1.3.pdf;No funcional
 286;OTR-286;Log in to an account shall require entry of an account name and a password.;2010 - digital home 1.3.pdf;No funcional
-287;OTR-287;"The development of the DH system shall use methods and techniques such as the following to support system maintenance:
-· Documentation of requirements, design, and code
-· Use of abstraction, information hiding and module independence in system design
-·Use of IEEE standards [IEEE830, IEEE1008, IEEE1016, IEEE1028] and the HomeOwner Coding Standard [HO4710].";2010 - digital home 1.3.pdf;No funcional
+287;OTR-287;"The development of the DH system shall use methods and techniques such as the following to support system maintenance: · Documentation of requirements, design, and code · Use of abstraction, information hiding and module independence in system design ·Use of IEEE standards [IEEE830, IEEE1008, IEEE1016, IEEE1028] and the HomeOwner Coding Standard [HO4710].";2010 - digital home 1.3.pdf;No funcional
 288;OTR-288;The DigitalHome System shall provide users with online documentation about the DigitalHome system installed in their home.;2010 - digital home 1.3.pdf;No funcional
 289;OTR-289;The user can divide a pdf document into parts, following some options for how to split the document. Then he can save the output pdf files in a directory he wants.;2010 - split merge.pdf;Funcional
 290;OTR-290;Split options: The user can choose between 7 types of splitting: − Burst: the input file will be split in single pages. − Split every “n” pages: the input file will be split every “n” pages. − Split even pages: the input file will be split at every even page. − Split odd pages: the input file will be split at every odd page. − Split after these pages: the input file will be split at the given pages numbers. − Split at this size: the input file will be split in files of the given size (roughly). − Split by bookmark level: the input file will be split at every page linked by the bookmarks of the selected level (this can be very useful if you want to split an e-book in chapters).;2010 - split merge.pdf;Funcional
@@ -2175,10 +2140,8 @@ group. ";2007 - eirene fun 7.pdf;Funcional
 641;OTR-641;Ability for the data center admin to whitelist/blacklist senders by domain or IP address.;2009 - email.pdf;Funcional
 642;OTR-642;Ability for the data center admin to block or allow e-mail based on multiple message attributes.;2009 - email.pdf;Funcional
 643;OTR-643;The system shall provide message hygiene reports;2009 - email.pdf;Funcional
-644;OTR-644;"The system shall permit  the user to establish TLS encryption with other
-businesses or customers.";2009 - email.pdf;No funcional
-645;OTR-645;"The system shall protect internal e-mail customer
-identity.";2009 - email.pdf;Funcional
+644;OTR-644;"The system shall permit  the user to establish TLS encryption with other businesses or customers.";2009 - email.pdf;No funcional
+645;OTR-645;"The system shall protect internal e-mail customer identity.";2009 - email.pdf;Funcional
 646;OTR-646;Ability for the user to access e-mail with Blackberry services using BlackBerry device.;2009 - email.pdf;No funcional
 647;OTR-647;Ability for the user to access e-mail with non-Blackberry mobile data devices (iPhones, Treos, Pres. Etc.).;2009 - email.pdf;No funcional
 648;OTR-648;Ability for the user to access mailbox and components via a web browser over a secure (encrypted) connection.;2009 - email.pdf;No funcional
@@ -2202,11 +2165,7 @@ identity.";2009 - email.pdf;Funcional
 666;OTR-666;Determine the mean radial velocity;2009 - gaia.pdf;Funcional
 667;OTR-667;Determine the final flags;2009 - gaia.pdf;Funcional
 668;OTR-668;Determine the mean physical parameters;2009 - gaia.pdf;Funcional
-669;OTR-669;"The spectrum simulation module Noise sould take consideration on:
-• Flux noise (Poisson noise, total detection noise,...)
-• CCD combination noise for (RVS)
-• Wavelength calibration
-• Multi-transit combination noise (only for combined data)should be added";2009 - gaia.pdf;Funcional
+669;OTR-669;"The spectrum simulation module Noise sould take consideration on: • Flux noise (Poisson noise, total detection noise,...) • CCD combination noise for (RVS) • Wavelength calibration • Multi-transit combination noise (only for combined data)should be added";2009 - gaia.pdf;Funcional
 670;OTR-670;The universe catalog output data of the simulation has to follow the universe model ICD document;2009 - gaia.pdf;Funcional
 671;OTR-671;GOG output should be driven by the MDB data model.The output will be used to distribute extracts to the DPC’s;2009 - gaia.pdf;Funcional
 672;OTR-672;GOG will be fully integrated in the Gaia Simulator project. That is, it will use as other the other simulators the Gaia Simu library and the Gaia Tools library.;2009 - gaia.pdf;No funcional
@@ -2266,14 +2225,7 @@ identity.";2009 - email.pdf;Funcional
 726;OTR-726;All code will be written as required by the GNU General Purpose License.;2001 - libra.doc;No funcional
 727;OTR-727;All coding will be done in standard C;2001 - libra.doc;No funcional
 728;OTR-728;There will be two user types – the cluster user and the cluster administrator – each of which will have its own corresponding interface.;2001 - libra.doc;Funcional
-729;OTR-729;"There will be a different command for each of the following actions:
-• submit jobs with the associated deadline, cost, and execution time
-• query the cluster to establish the current cost per unit time for submitting new jobs
-• monitor the status of submitted jobs
-• cancel jobs submitted by him
-• check his credit balance
-• check his usage history 
-";2001 - libra.doc;Funcional
+729;OTR-729;"There will be a different command for each of the following actions: • submit jobs with the associated deadline, cost, and execution time • query the cluster to establish the current cost per unit time for submitting new jobs • monitor the status of submitted jobs • cancel jobs submitted by him • check his credit balance • check his usage history  ";2001 - libra.doc;Funcional
 730;OTR-730;The cluster administrator will be able to interact with the system through the Linux command prompt;2001 - libra.doc;No funcional
 731;OTR-731;The system must be able to capture and manage files where appropriate.;2007 - puget sound.pdf;Funcional
 732;OTR-732;The system must allow for multiple file upload to be configured on a per-page basis;2007 - puget sound.pdf;Funcional

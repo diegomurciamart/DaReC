@@ -189,20 +189,20 @@
 15;JUE-15;There is one square block with a side of 2x.;2003 - qheadache.pdf;Funcional
 16;JUE-16;The board is black and the blocks are yellow.;2003 - qheadache.pdf;Funcional
 17;JUE-17;A block is selected when the user left­clicks down on a block;2003 - qheadache.pdf;Funcional
-18;JUE-18;"When a block is selected the game state becomes ""Block deplacement""";2003 - qheadache.pdf;Funcional
+18;JUE-18;When a block is selected the game state becomes "Block deplacement";2003 - qheadache.pdf;Funcional
 19;JUE-19;A block is deselected when the user left­clicks down on a selected block;2003 - qheadache.pdf;Funcional
-20;JUE-20;"When a block is deselected he game state becomes ""Block selection""";2003 - qheadache.pdf;Funcional
-21;JUE-21;"A block moves with the mouse movement during the ""Block movement"" state. ";2003 - qheadache.pdf;Funcional
+20;JUE-20;When a block is deselected he game state becomes "Block selection";2003 - qheadache.pdf;Funcional
+21;JUE-21;A block moves with the mouse movement during the "Block movement" state. ";2003 - qheadache.pdf;Funcional
 22;JUE-22;The selected block follows the mouse movement without overlapp the other blocks and exit of the game zone. The selected block can'tmove near other blocks at least 0.05x from the others blocks.;2003 - qheadache.pdf;Funcional
 23;JUE-23;The user can cancel a movement.;2003 - qheadache.pdf;Funcional
-24;JUE-24;"After cancelling a movement the game displays the block positions at the places where they were before the last movement. This action is considered like a movement. The ""undo"" action is unvailable if there was no previous movement.";2003 - qheadache.pdf;Funcional
+24;JUE-24;After cancelling a movement the game displays the block positions at the places where they were before the last movement. This action is considered like a movement. The "undo" action is unvailable if there was no previous movement.;2003 - qheadache.pdf;Funcional
 25;JUE-25;The user can redo a movement that has been canceled.;2003 - qheadache.pdf;Funcional
-26;JUE-26;"After redoing a movement he game displays the block positions at the places where they were before the last movement was canceled. This action is considered like a movement. The redo action is unavailable, if the previous action wasn't an ""undo"" action.";2003 - qheadache.pdf;Funcional
+26;JUE-26;After redoing a movement he game displays the block positions at the places where they were before the last movement was canceled. This action is considered like a movement. The redo action is unavailable, if the previous action wasn't an ""undo"" action.";2003 - qheadache.pdf;Funcional
 27;JUE-27;When the great square is moved at the bottom of the board, the game ends.;2003 - qheadache.pdf;Funcional
 28;JUE-28;All the player statistics are freezed when the game ends.;2003 - qheadache.pdf;Funcional
-29;JUE-29;"If the number of block movements of the current player is lower than the highest number of block movement recorded in the statistic file, the""Finish Window with Statistcs"" is displayed. If not the ""Simple finish Window"" is displayed.";2003 - qheadache.pdf;Funcional
-30;JUE-30;"The Finish Window with Statisctis contains a the following text : ""You win ! Enter your name : "", an Edit Box that can contain 20 characters and a pushbutton with the label ""OK"".";2003 - qheadache.pdf;Funcional
-31;JUE-31;"If the player clicks on the pushbutton ""OK"" at the Finish Window with Statistics, the player statistics are recorded in the statistic file of the software. The window is closed";2003 - qheadache.pdf;Funcional
+29;JUE-29;If the number of block movements of the current player is lower than the highest number of block movement recorded in the statistic file, the""Finish Window with Statistcs"" is displayed. If not the ""Simple finish Window"" is displayed.;2003 - qheadache.pdf;Funcional
+30;JUE-30;The Finish Window with Statisctis contains a the following text : ""You win ! Enter your name : "", an Edit Box that can contain 20 characters and a pushbutton with the label ""OK"".;2003 - qheadache.pdf;Funcional
+31;JUE-31;If the player clicks on the pushbutton ""OK"" at the Finish Window with Statistics, the player statistics are recorded in the statistic file of the software. The window is closed;2003 - qheadache.pdf;Funcional
 32;JUE-32;"When the ""finish"" window is closed, the statistic window is displayed";2003 - qheadache.pdf;Funcional
 33;JUE-33;"The Simple Finish Window contains a the following text : ""You win !"" and a pushbutton with the label ""OK"".";2003 - qheadache.pdf;Funcional
 34;JUE-34;"If the player clicks on the pushbutton ""OK"" at the Simple Finish Window, the Simple Finish Window is closed and the statistic window is displayed.";2003 - qheadache.pdf;Funcional

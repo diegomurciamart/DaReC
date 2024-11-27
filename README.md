@@ -13,3 +13,10 @@ Our goal is to achieve a valid alternative to dataset PROMISE which only contain
 DaReC dataset contains 2391 requirements from 50 industrial and academical documents. We tested PROMISE and DaReC datasets in different situations and using this three language models: BERT, DeBERTa and RoBERTa
 
 More information about the code, results and datasets can be found in the READMEs for each section.
+
+
+## TO-DO
+- cambiar el excel antiguo por el nuevo con el nombre bien puesto (en datasets/ReWoRC)
+- cambiar el nombre de las carpetas ReWoRC por DaReC (en datasets y en code)
+- cambiar calculate_results
+- cambiar los códigos por los actualizados

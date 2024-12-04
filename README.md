@@ -14,8 +14,3 @@ DaReC dataset contains 2391 requirements from 50 industrial and academical docum
 
 More information about the code, results and datasets can be found in the READMEs for each section.
 
-
-## TO-DO
-- cambiar el nombre de las carpetas ReWoRC por DaReC (en datasets y en code)
-- cambiar calculate_results
-- cambiar los códigos por los actualizados

@@ -13,7 +13,7 @@ os.environ["WANDB_DISABLED"]="true"
 
 from datasets import load_dataset
 
-FILE_REQ='/kaggle/working/ReWoRC_Dataset_req.csv'
+FILE_REQ='/kaggle/working/DaReC_Dataset_req.csv'
 data_req = load_dataset('csv', data_files=FILE_REQ, sep=';')
 print(data_req['train']['NFR'][21])
 

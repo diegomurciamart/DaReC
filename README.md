@@ -16,7 +16,6 @@ More information about the code, results and datasets can be found in the README
 
 
 ## TO-DO
-- cambiar el excel antiguo por el nuevo con el nombre bien puesto (en datasets/ReWoRC)
 - cambiar el nombre de las carpetas ReWoRC por DaReC (en datasets y en code)
 - cambiar calculate_results
 - cambiar los códigos por los actualizados

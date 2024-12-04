@@ -202,24 +202,26 @@ for j in range(len(train_val_sets)):
 """Aquí acaba el código de colab.
 Falta hacer el zip para poder descargar los resultados (y opcionalmente usar el bot para que me avise del final de la ejecución)
 """
+# ======================================================================================================
+# Code executions are long, so we use a bot which sends us a message to warn that the run has ended
 
-import requests
+#import requests
 
 # Definir la URL base y los parámetros
-url = "https://api.callmebot.com/whatsapp.php"
-params = {
-    "phone": "phonenumber",
-    "apikey": "apikey",
-    "text": "🤖¡Ejecución terminada! 🤖\nVe a echarle un vistazo al explorer ☝🤓"
-}
+#url = "https://api.callmebot.com/whatsapp.php"
+#params = {
+#    "phone": "phonenumber",
+#    "apikey": "api-key",
+#    "text": "🤖¡Ejecución terminada! 🤖\nVe a echarle un vistazo ☝🤓"
+#}
 
 # Enviar la solicitud GET
-response = requests.get(url, params=params)
+#response = requests.get(url, params=params)
 
 # Imprimir el estado de la respuesta
-print(response.status_code)
-print(response.text)
-
+#print(response.status_code)
+#print(response.text)
+# ======================================================================================================
 !zip -r results_roberta_statement.zip results_roberta_statement
 from IPython.display import FileLink
 FileLink(r'results_roberta_statement.zip')

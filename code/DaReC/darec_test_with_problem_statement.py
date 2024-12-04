@@ -208,8 +208,8 @@ import requests
 # Definir la URL base y los parámetros
 url = "https://api.callmebot.com/whatsapp.php"
 params = {
-    "phone": "+34653508040",
-    "apikey": "1512070",
+    "phone": "phonenumber",
+    "apikey": "apikey",
     "text": "🤖¡Ejecución terminada! 🤖\nVe a echarle un vistazo al explorer ☝🤓"
 }
 
